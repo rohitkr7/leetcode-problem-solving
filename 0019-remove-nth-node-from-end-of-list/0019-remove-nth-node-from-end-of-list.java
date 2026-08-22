@@ -10,6 +10,8 @@
  */
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
+
+        // Time: O(sz) and O(1) space.
         ListNode dummy = new ListNode();
         dummy.next = head;
 
@@ -24,6 +26,7 @@ class Solution {
                 slow = slow.next;
             }
         }
+        
         ListNode temp = slow.next;
         slow.next = temp.next;
 
