@@ -55,6 +55,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0392-is-subsequence](https://github.com/rohitkr7/LeetCode/tree/master/0392-is-subsequence) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/rohitkr7/LeetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0658-find-k-closest-elements](https://github.com/rohitkr7/LeetCode/tree/master/0658-find-k-closest-elements) |
+| [0844-backspace-string-compare](https://github.com/rohitkr7/LeetCode/tree/master/0844-backspace-string-compare) |
 | [0977-squares-of-a-sorted-array](https://github.com/rohitkr7/LeetCode/tree/master/0977-squares-of-a-sorted-array) |
 ## Binary Search
 |  |
@@ -126,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/rohitkr7/LeetCode/tree/master/0054-spiral-matrix) |
+| [0844-backspace-string-compare](https://github.com/rohitkr7/LeetCode/tree/master/0844-backspace-string-compare) |
 ## Tree
 |  |
 | ------- |
@@ -213,6 +215,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0125-valid-palindrome](https://github.com/rohitkr7/LeetCode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/rohitkr7/LeetCode/tree/master/0242-valid-anagram) |
 | [0392-is-subsequence](https://github.com/rohitkr7/LeetCode/tree/master/0392-is-subsequence) |
+| [0844-backspace-string-compare](https://github.com/rohitkr7/LeetCode/tree/master/0844-backspace-string-compare) |
 ## Sliding Window
 |  |
 | ------- |
@@ -298,4 +301,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/rohitkr7/LeetCode/tree/master/0169-majority-element) |
+## Stack
+|  |
+| ------- |
+| [0844-backspace-string-compare](https://github.com/rohitkr7/LeetCode/tree/master/0844-backspace-string-compare) |
 <!---LeetCode Topics End-->
