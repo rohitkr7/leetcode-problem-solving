@@ -26,7 +26,7 @@ class Solution {
     // Approach 2 - Using reverse traversal/Two pointesr approach
     // Accumulate backspaces - there could be multiple backspaces at single place too, use counter
     // compare on the fly
-
+    // Time: O(m+n) and space: O(1)
     public boolean backspaceCompare(String s, String t) {
 
         int i = s.length() - 1;
