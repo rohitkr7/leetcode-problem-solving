@@ -10,42 +10,48 @@
  */
 class Solution {
     public boolean isPalindrome(ListNode head) {
+        if (head == null || head.next == null) {
+            return true;
+        }
+
+        // 1. Find the end of the first half using fast & slow pointers
         ListNode slow = head;
         ListNode fast = head;
-        
-        // Using slow and fast pointer reach to the middle (slow) and end (fast)
-        while(fast != null && fast.next != null){
+        while (fast.next != null && fast.next.next != null) {
             slow = slow.next;
             fast = fast.next.next;
         }
-        
-        if(fast != null){
-            // In odd numbers of element case, keeping the right hand half list as smaller
-            slow = slow.next;   
+
+        // 2. Reverse the second half of the list
+        ListNode secondHalfHead = reverseList(slow.next);
+
+        // 3. Check if the list is a palindrome
+        ListNode p1 = head;
+        ListNode p2 = secondHalfHead;
+        boolean result = true;
+        while (p2 != null) {
+            if (p1.val != p2.val) {
+                result = false;
+                break;
+            }
+            p1 = p1.next;
+            p2 = p2.next;
         }
-        
-        slow = reverse(slow);
-        
-        fast = head;
-        while(slow != null){
-            if(slow.val != fast.val )
-                return false;
-            
-            slow = slow.next;
-            fast = fast.next;
-        }
-        
-        return true;
+
+        // 4. (Optional best practice) Restore the original list structure
+        slow.next = reverseList(secondHalfHead);
+
+        return result;
     }
-    
-    public ListNode reverse(ListNode head){
+
+    private ListNode reverseList(ListNode head) {
         ListNode prev = null;
-        
-        while(head != null){
-            ListNode next = head.next;
-            head.next = prev;
-            prev = head;
-            head = next;
+        ListNode curr = head;
+        while (curr != null) {
+            ListNode nextTemp = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = nextTemp;
         }
         return prev;
     }
