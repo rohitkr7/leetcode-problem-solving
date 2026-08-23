@@ -1,13 +1,11 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
+/*Definition for singly-linked list.*public class ListNode {
  *     int val;
  *     ListNode next;
  *     ListNode() {}
  *     ListNode(int val) { this.val = val; }
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
+ * }*/
+
 class Solution {
 
     // Time Complexity: O(n) - Single pass through all n nodes
@@ -96,3 +94,26 @@ class Solution {
         return newHead;
     }
 }
+
+/* Notes:
+
+Linked List Pointer Mutation vs. Reference Assignment
+
+* `node.next = anotherNode;` (Mutates List Structure)
+* What it does: Changes the actual link inside `node`.
+* Memory Impact: Modifies the linked list in memory so `node` points directly to `anotherNode`.
+* Use case: Rewiring pointers to reverse a list, insert a node, or delete a node.
+
+
+* `node = anotherNode.next;` (Moves the Pointer Variable)
+* What it does: Updates the local variable `node` to look at a different location.
+* Memory Impact: Leaves the linked list structure untouched. Only the variable `node` moves one step forward to point to whatever node comes after `anotherNode`.
+* Use case: Traversing, advancing pointers, or saving positions during iteration.
+
+
+Quick Rule of Thumb:
+
+* `.next` on the left side of `=` --> changes the chain.
+* `.next` on the right side of `=` --> reads a destination to move a pointer.
+
+*/
