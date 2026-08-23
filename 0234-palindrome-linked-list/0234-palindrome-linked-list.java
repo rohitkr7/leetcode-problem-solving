@@ -9,6 +9,8 @@
  * }
  */
 class Solution {
+    // Time: O(n)
+    // Space: O(1)
     public boolean isPalindrome(ListNode head) {
         if (head == null || head.next == null) {
             return true;
