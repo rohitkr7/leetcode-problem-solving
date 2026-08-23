@@ -9,19 +9,24 @@
  * }
  */
 class Solution {
+
+    // Time Complexity: O(n) where n is the number of nodes, as each curr is visited at most twice.
+    // Space Complexity: O(1) auxiliary space, operating fully in-place.
+
     public ListNode deleteDuplicates(ListNode head) {
-        if(head == null)
+        if (head == null || head.next == null)
             return head;
-        ListNode prev = head;
-        ListNode curr = head.next;
-        while(curr != null){
-            if(prev.val == curr.val){
-                prev.next = curr.next;
-            }else{
-                prev = prev.next;
-            }
-            curr = curr.next;
+
+        ListNode curr = head;
+
+        while (curr.next != null) {
+            // Skip next curr without moving curr, so the pulled-up node is verified next (handles consecutive duplicate values nodes)
+            if (curr.val == curr.next.val)
+                curr.next = curr.next.next;
+            else
+                curr = curr.next;
         }
+
         return head;
     }
 }
