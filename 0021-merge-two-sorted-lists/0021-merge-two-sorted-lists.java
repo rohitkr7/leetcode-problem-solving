@@ -1,34 +1,35 @@
 /**
  * Definition for singly-linked list.
  * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * int val;
+ * ListNode next;
+ * ListNode() {}
+ * ListNode(int val) { this.val = val; }
+ * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
 class Solution {
+
+    // Time Complexity: O(n + m), where n and m are the lengths of list1 and list2
+    // Space Complexity: O(1), since nodes are spliced in-place without allocating new list nodes.
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        ListNode head = new ListNode(0);
-        ListNode handle = head;
-        while( list1 != null && list2 != null ){
-            if(list1.val < list2.val){
-                handle.next = list1;
+        ListNode dummy = new ListNode(0);
+        ListNode curr = dummy;
+
+        while (list1 != null && list2 != null) {
+            if (list1.val <= list2.val) {
+                curr.next = list1;
                 list1 = list1.next;
-            }else{
-                handle.next = list2;
+            } else {
+                curr.next = list2;
                 list2 = list2.next;
             }
-            handle = handle.next;
+            curr = curr.next;
         }
-        if(list1!=null){
-            handle.next = list1;
-        }
-        else if(list2!=null){
-            handle.next = list2;
-            list2 = list2.next;
-        }
-        return head.next;
+
+        // Attach whichever list has remaining elements
+        curr.next = (list1 != null) ? list1 : list2;
+
+        return dummy.next;
     }
 }
