@@ -36,17 +36,17 @@ class Solution {
         // Create a dummy node pointing to the original head
         ListNode dummy = new ListNode(0, head);
         ListNode curr = dummy;
-        
+
         while (curr.next != null) {
             if (curr.next.val == val) {
-                // Skip the target node
+                // Skip target node without moving curr, so the pulled-up node is verified next (handles consecutive targets)
                 curr.next = curr.next.next;
             } else {
-                // Only advance if the next node is valid
+                // curr.next is valid; safe to advance
                 curr = curr.next;
             }
         }
-        
+
         return dummy.next;
     }
 }
