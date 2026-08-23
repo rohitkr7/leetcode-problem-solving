@@ -1,4 +1,5 @@
 class Solution {
+    //Time: O(n) and Space: O(1)
     public boolean isSubsequence(String s, String t) {
         if (s.equals(t) || s.length() == 0)
             return true;
