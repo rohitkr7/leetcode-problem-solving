@@ -3,7 +3,7 @@ import java.util.Stack;
 class Solution {
 
     // Time: O(n) and Space: O(n) space stack
-    public boolean isValid_1(String s) {
+    public boolean isValid(String s) {
 
         // Fast exit: odd length can never be balanced
         if (s.length() % 2 != 0) {
@@ -37,7 +37,7 @@ class Solution {
         return st.size() == 0;
     }
 
-    public boolean isValid(String s) {
+    public boolean isValid_simple(String s) {
         // Fast exit: odd length can never be balanced
         if (s.length() % 2 != 0) {
             return false;
