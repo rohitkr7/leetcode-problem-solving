@@ -18,7 +18,7 @@ class Solution {
     // Time: O(n) - visiting every node exactly once
     // Space: O(H) - where H is the height of the tree (call stack deapth)
     // Overhead: Minimal call-stack overhead
-    public int maxDepth_dfs(TreeNode root) {
+    public int maxDepth(TreeNode root) {
         if (root == null)
             return 0;
 
@@ -32,7 +32,7 @@ class Solution {
     // Time Complexity: O(N) — Every node is enqueued and dequeued exactly once.
     // Space Complexity: O(W) — Where W is the maximum width of the tree. In the worst case (a full binary tree), the queue holds up to ceil(N / 2)  nodes at the lowest level, which is O(N).
     // Overhead: Explicit heap allocation for Queue nodes
-    public int maxDepth(TreeNode root) {
+    public int maxDepth_bfs(TreeNode root) {
         // Base Case: An empty tree has a depth of 0
         if (root == null) {
             return 0;
