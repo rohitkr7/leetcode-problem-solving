@@ -26,7 +26,6 @@ class Solution {
     }
 
     // Cyclic Sort / Index Placement: Place each number x at its corresponding index nums[x]. After sorting in-place, the index that does not match its value is the missing number (O(n) Time, O(1) Space, modifies input).
-    // As we do not have the n-th index in the array we will not touch the number n if it ever comes in the iteration
     public int missingNumber(int[] nums) {
         int i = 0;
         int n = nums.length;
@@ -36,6 +35,7 @@ class Solution {
             int correctIndex = nums[i];
 
             // Place nums[i] at index nums[i] if it's within bounds [0, n - 1]
+            // As we do not have the n-th index in the array we will not touch the number n if it ever comes in the iteration
             if (correctIndex < n && nums[i] != nums[correctIndex]) {
                 swap(nums, i, correctIndex);
             } else {
