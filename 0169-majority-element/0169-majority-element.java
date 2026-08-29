@@ -1,4 +1,23 @@
 class Solution {
+
+    public int majorityElement(int[] nums) {
+        if (nums.length == 1)
+            return nums[0];
+
+        Map<Integer, Integer> hm = new HashMap<>();
+        int majorityCount = nums.length / 2;
+
+        for (int num : nums) {
+            int count = hm.getOrDefault(num, 0) + 1;
+            if (count > majorityCount) {
+                return num;
+            }
+            hm.put(num, count);
+        }
+
+        return -1;
+    }
+
     public int majorityElement_1(int[] nums) {
         // Finding frequency using HashMap
         // Time: O(n)
@@ -34,7 +53,7 @@ class Solution {
     Reset: If count == 0, pick the current element as the new candidate.Vote: If the current element equals the candidate, increment count by $1$.
     Cancel: If the current element is different, decrement count by $1$.
     */
-    public int majorityElement(int[] nums) {
+    public int majorityElement_2(int[] nums) {
         int candidate = 0;
         int count = 0;
 
