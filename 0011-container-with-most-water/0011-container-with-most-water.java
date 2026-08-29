@@ -20,6 +20,8 @@ class Solution {
     }
 
     // Optimized solution
+    // Time: O(n)
+    // Space: O(1)
     public int maxArea(int[] height) {
         int left = 0;
         int right = height.length - 1;
