@@ -1,5 +1,5 @@
 class Solution {
-    public void moveZeroes(int[] nums) {
+    public void moveZeroes_1(int[] nums) {
         // "relative order" does not mean sorting by value—it means preserving the original sequence of appearance from left to right.
 
         // insertPos tracks the target index for the next non-zero element.
@@ -19,6 +19,23 @@ class Solution {
                 }
                 insertPos++;
             }
+        }
+    }
+
+    // Optimanl Low Write
+    public void moveZeroes(int[] nums) {
+        int insertPos = 0;
+        
+        // Pass 1: Copy all non-zero elements forward
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != 0) {
+                nums[insertPos++] = nums[i];
+            }
+        }
+        
+        // Pass 2: Fill the rest with zeros
+        while (insertPos < nums.length) {
+            nums[insertPos++] = 0;
         }
     }
 }
