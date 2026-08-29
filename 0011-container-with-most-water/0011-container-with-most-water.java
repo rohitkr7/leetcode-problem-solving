@@ -1,8 +1,8 @@
 class Solution {
-    
+
     // Time: O(n)
     // Space: O(1)
-    public int maxArea(int[] height) {
+    public int maxArea_1(int[] height) {
         int left = 0;
         int right = height.length - 1;
 
@@ -18,4 +18,27 @@ class Solution {
         }
         return maxWater;
     }
+
+    // Optimized solution
+    public int maxArea(int[] height) {
+        int left = 0;
+        int right = height.length - 1;
+        int maxA = 0;
+
+        while (left <= right) {
+            int minH = Math.min(height[left], height[right]);
+            maxA = Math.max(maxA, minH * (right - left));
+
+            while (left < height.length && height[left] <= minH) {
+                left++;
+            }
+
+            while (right >= 0 && height[right] <= minH) {
+                right--;
+            }
+        }
+
+        return maxA;
+    }
+
 }
