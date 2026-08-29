@@ -18,6 +18,7 @@ class Solution {
         return -1;
     }
 
+    // same solution with two iterations - not suggested to be used
     public int majorityElement_1(int[] nums) {
         // Finding frequency using HashMap
         // Time: O(n)
