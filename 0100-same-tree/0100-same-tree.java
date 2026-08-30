@@ -15,7 +15,7 @@
  */
 class Solution {
 
-    // BEST:: Recursive DFS Approach
+    // BEST Solution:: Recursive DFS Approach
     // Time: ON(n) - visit each node at least once where n is the minimum number of nodes between the two trees
     // Space: O(h) - uses the implicit call stack proportional to the tree height h (O(log N) balanced, O(N) worst-case skewed)
     public boolean isSameTree(TreeNode p, TreeNode q) {
