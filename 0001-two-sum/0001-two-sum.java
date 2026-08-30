@@ -1,6 +1,6 @@
 class Solution {
     // Time: O(n)
-    // Space: O(n
+    // Space: O(n)
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();
         for (int i = 0; i < nums.length; i++) {
