@@ -144,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0107-binary-tree-level-order-traversal-ii) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0111-minimum-depth-of-binary-tree) |
 | [0113-path-sum-ii](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0113-path-sum-ii) |
+| [0226-invert-binary-tree](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0230-kth-smallest-element-in-a-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0783-search-in-a-binary-search-tree) |
@@ -155,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0111-minimum-depth-of-binary-tree](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0111-minimum-depth-of-binary-tree) |
 | [0113-path-sum-ii](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0113-path-sum-ii) |
 | [0200-number-of-islands](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0200-number-of-islands) |
+| [0226-invert-binary-tree](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0230-kth-smallest-element-in-a-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0653-two-sum-iv-input-is-a-bst) |
 ## Breadth-First Search
@@ -167,6 +169,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0107-binary-tree-level-order-traversal-ii) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0111-minimum-depth-of-binary-tree) |
 | [0200-number-of-islands](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0200-number-of-islands) |
+| [0226-invert-binary-tree](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0226-invert-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0653-two-sum-iv-input-is-a-bst) |
 ## Binary Search Tree
 |  |
@@ -184,6 +187,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0107-binary-tree-level-order-traversal-ii) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0111-minimum-depth-of-binary-tree) |
 | [0113-path-sum-ii](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0113-path-sum-ii) |
+| [0226-invert-binary-tree](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0230-kth-smallest-element-in-a-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0783-search-in-a-binary-search-tree) |
