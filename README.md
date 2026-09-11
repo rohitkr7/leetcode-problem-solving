@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0011-container-with-most-water) |
+| [0014-longest-common-prefix](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0014-longest-common-prefix) |
 | [0033-search-in-rotated-sorted-array](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0033-search-in-rotated-sorted-array) |
 | [0046-permutations](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0046-permutations) |
 | [0049-group-anagrams](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0049-group-anagrams) |
@@ -232,6 +233,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0003-longest-substring-without-repeating-characters) |
+| [0014-longest-common-prefix](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0076-minimum-window-substring) |
@@ -334,4 +336,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0020-valid-parentheses) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
