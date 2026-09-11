@@ -236,6 +236,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0014-longest-common-prefix](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0049-group-anagrams) |
+| [0058-length-of-last-word](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0058-length-of-last-word) |
 | [0076-minimum-window-substring](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/rohitkr7/leetcode-problem-solving/tree/main/0242-valid-anagram) |
