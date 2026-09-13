@@ -44,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0912-sort-an-array](https://github.com/rohitkr7/leetcode-solutions/tree/main/0912-sort-an-array) |
 | [0977-squares-of-a-sorted-array](https://github.com/rohitkr7/leetcode-solutions/tree/main/0977-squares-of-a-sorted-array) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/rohitkr7/leetcode-solutions/tree/main/1482-how-many-numbers-are-smaller-than-the-current-number) |
+| [1631-path-with-minimum-effort](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/1631-path-with-minimum-effort) |
 ## Two Pointers
 |  |
 | ------- |
@@ -75,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0658-find-k-closest-elements](https://github.com/rohitkr7/leetcode-solutions/tree/main/0658-find-k-closest-elements) |
 | [0704-binary-search](https://github.com/rohitkr7/leetcode-solutions/tree/main/0704-binary-search) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/rohitkr7/leetcode-solutions/tree/main/0744-find-smallest-letter-greater-than-target) |
+| [1631-path-with-minimum-effort](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/1631-path-with-minimum-effort) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -131,6 +133,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0073-set-matrix-zeroes](https://github.com/rohitkr7/leetcode-solutions/tree/main/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/rohitkr7/leetcode-solutions/tree/main/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/rohitkr7/leetcode-solutions/tree/main/0200-number-of-islands) |
+| [1631-path-with-minimum-effort](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/1631-path-with-minimum-effort) |
 ## Simulation
 |  |
 | ------- |
@@ -162,6 +165,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/rohitkr7/leetcode-solutions/tree/main/0230-kth-smallest-element-in-a-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/rohitkr7/leetcode-solutions/tree/main/0653-two-sum-iv-input-is-a-bst) |
 | [0743-network-delay-time](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0743-network-delay-time) |
+| [1631-path-with-minimum-effort](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/1631-path-with-minimum-effort) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -175,6 +179,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0226-invert-binary-tree](https://github.com/rohitkr7/leetcode-solutions/tree/main/0226-invert-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/rohitkr7/leetcode-solutions/tree/main/0653-two-sum-iv-input-is-a-bst) |
 | [0743-network-delay-time](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0743-network-delay-time) |
+| [1631-path-with-minimum-effort](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/1631-path-with-minimum-effort) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -275,6 +280,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0658-find-k-closest-elements](https://github.com/rohitkr7/leetcode-solutions/tree/main/0658-find-k-closest-elements) |
 | [0743-network-delay-time](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0743-network-delay-time) |
 | [0912-sort-an-array](https://github.com/rohitkr7/leetcode-solutions/tree/main/0912-sort-an-array) |
+| [1631-path-with-minimum-effort](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/1631-path-with-minimum-effort) |
 ## Merge Sort
 |  |
 | ------- |
@@ -363,4 +369,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0743-network-delay-time) |
+| [1631-path-with-minimum-effort](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/1631-path-with-minimum-effort) |
+## Union-Find
+|  |
+| ------- |
+| [1631-path-with-minimum-effort](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/1631-path-with-minimum-effort) |
 <!---LeetCode Topics End-->
