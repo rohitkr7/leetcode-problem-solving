@@ -32,23 +32,23 @@ class Solution {
         while (!pq.isEmpty()) {
             int[] top = pq.poll();
             int currentNode = top[0];
-            int currentWeight = top[1];
+            int currentDelay = top[1];
 
             // Check for stale distance and skip
-            if (currentWeight > duration[currentNode]) {
+            if (currentDelay > duration[currentNode]) {
                 continue;
             }
 
             // Relax the times
             for (int[] node : adj.get(currentNode)) {
                 int nextNode = node[0];
-                int weight = node[1];
+                int delay = node[1];
 
-                int nextWeight = currentWeight + weight;
+                int nextDelay = currentDelay + delay;
 
-                if (nextWeight < duration[nextNode]) {
-                    duration[nextNode] = nextWeight;
-                    pq.offer(new int[] { nextNode, nextWeight });
+                if (nextDelay < duration[nextNode]) {
+                    duration[nextNode] = nextDelay;
+                    pq.offer(new int[] { nextNode, nextDelay });
                 }
             }
         }
