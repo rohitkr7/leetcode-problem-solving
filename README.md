@@ -161,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0226-invert-binary-tree](https://github.com/rohitkr7/leetcode-solutions/tree/main/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/rohitkr7/leetcode-solutions/tree/main/0230-kth-smallest-element-in-a-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/rohitkr7/leetcode-solutions/tree/main/0653-two-sum-iv-input-is-a-bst) |
+| [0743-network-delay-time](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0743-network-delay-time) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -173,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/rohitkr7/leetcode-solutions/tree/main/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/rohitkr7/leetcode-solutions/tree/main/0226-invert-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/rohitkr7/leetcode-solutions/tree/main/0653-two-sum-iv-input-is-a-bst) |
+| [0743-network-delay-time](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0743-network-delay-time) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -271,6 +273,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0239-sliding-window-maximum](https://github.com/rohitkr7/leetcode-solutions/tree/main/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/rohitkr7/leetcode-solutions/tree/main/0347-top-k-frequent-elements) |
 | [0658-find-k-closest-elements](https://github.com/rohitkr7/leetcode-solutions/tree/main/0658-find-k-closest-elements) |
+| [0743-network-delay-time](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0743-network-delay-time) |
 | [0912-sort-an-array](https://github.com/rohitkr7/leetcode-solutions/tree/main/0912-sort-an-array) |
 ## Merge Sort
 |  |
@@ -348,4 +351,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/rohitkr7/leetcode-solutions/tree/main/0014-longest-common-prefix) |
+## Graph Theory
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0743-network-delay-time) |
+## Shortest Path
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0743-network-delay-time) |
+## Dijkstra's Algorithm
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0743-network-delay-time) |
 <!---LeetCode Topics End-->
