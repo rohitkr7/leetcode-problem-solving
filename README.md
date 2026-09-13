@@ -324,6 +324,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0007-reverse-integer) |
 | [0268-missing-number](https://github.com/rohitkr7/leetcode-solutions/tree/main/0268-missing-number) |
 ## Boyer–Moore Majority Vote Algorithm
 |  |
