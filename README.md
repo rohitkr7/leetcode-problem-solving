@@ -236,6 +236,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/rohitkr7/leetcode-solutions/tree/main/0003-longest-substring-without-repeating-characters) |
 | [0014-longest-common-prefix](https://github.com/rohitkr7/leetcode-solutions/tree/main/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/rohitkr7/leetcode-solutions/tree/main/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/rohitkr7/leetcode-solutions/tree/main/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/rohitkr7/leetcode-solutions/tree/main/0058-length-of-last-word) |
 | [0076-minimum-window-substring](https://github.com/rohitkr7/leetcode-solutions/tree/main/0076-minimum-window-substring) |
@@ -284,6 +285,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/rohitkr7/leetcode-solutions/tree/main/0046-permutations) |
 | [0051-n-queens](https://github.com/rohitkr7/leetcode-solutions/tree/main/0051-n-queens) |
 | [0078-subsets](https://github.com/rohitkr7/leetcode-solutions/tree/main/0078-subsets) |
@@ -299,6 +301,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/rohitkr7/leetcode-solutions/tree/main/0053-maximum-subarray) |
 | [0064-minimum-path-sum](https://github.com/rohitkr7/leetcode-solutions/tree/main/0064-minimum-path-sum) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/rohitkr7/leetcode-solutions/tree/main/0121-best-time-to-buy-and-sell-stock) |
@@ -340,6 +343,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/rohitkr7/leetcode-solutions/tree/main/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/rohitkr7/leetcode-problem-solving/tree/master/0022-generate-parentheses) |
 ## Trie
 |  |
 | ------- |
