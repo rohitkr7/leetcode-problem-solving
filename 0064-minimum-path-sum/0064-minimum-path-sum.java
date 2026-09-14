@@ -7,7 +7,7 @@ class Solution {
     // Space Complexity: O(mxn)
 
     // Method to find the minimum path sum in a grid.
-    public int minPathSum_DP(int[][] grid) {
+    public int minPathSum(int[][] grid) {
         // m and n store the dimensions of the grid.
         int m = grid.length, n = grid[0].length;
 
@@ -41,7 +41,11 @@ class Solution {
         return dp[m - 1][n - 1];
     }
 
-    public int minPathSum(int[][] grid) {
+    // Dijkstra Approach
+    // DP solution should be used for this problem as that is better for DAG: Directed Acyclic Graphs
+    // In this case the constraints to move only down or right says its a directed graph and acyclic
+    // Optimal Efficiency: When working with a DAG, you do not need the overhead of a priority queue to figure out which node to process next. A Dynamic Programming approach takes advantage of the grid's natural topological order. By simply iterating row by row and column by column, it calculates the optimal path in just O(M * N) time.
+    public int minPathSum_Dijkstra(int[][] grid) {
         int rows = grid.length;
         int cols = grid[0].length;
 
