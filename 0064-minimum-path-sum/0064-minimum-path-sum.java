@@ -6,9 +6,8 @@ class Solution {
     // Time Complexity: O(mxn)
     // Space Complexity: O(mxn)
 
-
     // Method to find the minimum path sum in a grid.
-    public int minPathSum(int[][] grid) {
+    public int minPathSum_DP(int[][] grid) {
         // m and n store the dimensions of the grid.
         int m = grid.length, n = grid[0].length;
 
@@ -40,5 +39,56 @@ class Solution {
         // Return the bottom-right cell which contains the min path sum from top-left to
         // bottom-right.
         return dp[m - 1][n - 1];
+    }
+
+    public int minPathSum(int[][] grid) {
+        int rows = grid.length;
+        int cols = grid[0].length;
+
+        //pathSums[r][c] = minimum pathSum to reach grid[r][c] from grid[0][0]
+        int[][] pathSums = new int[rows][cols];
+        for (int[] row : pathSums) {
+            Arrays.fill(row, Integer.MAX_VALUE);
+        }
+        pathSums[0][0] = grid[0][0];
+
+        //the heap holds [row, col, pathSumSoFar]
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> Integer.compare(a[2], b[2]));
+        pq.offer(new int[] { 0, 0, pathSums[0][0] });
+
+        int[][] directions = { { 1, 0 }, { 0, 1 } };
+
+        while (!pq.isEmpty()) {
+            int[] current = pq.poll();
+            int currentRow = current[0];
+            int currentCol = current[1];
+            int currentSum = current[2];
+
+            //the first time we pop the bottom-right cell, its pathSums is already optimal
+            if (currentRow == rows - 1 && currentCol == cols - 1)
+                return currentSum;
+
+            //stale entry, a cheaper path to this cell was already settled
+            if (currentSum > pathSums[currentRow][currentCol])
+                continue;
+
+            for (int[] dir : directions) {
+                int nextRow = currentRow + dir[0];
+                int nextCol = currentCol + dir[1];
+
+                if (nextRow < 0 || nextRow >= rows || nextCol < 0 || nextCol >= cols)
+                    continue;
+
+                int nextSum = currentSum + grid[nextRow][nextCol];
+
+                if (nextSum < pathSums[nextRow][nextCol]) {
+                    pathSums[nextRow][nextCol] = nextSum;
+                    pq.offer(new int[] { nextRow, nextCol, nextSum });
+                }
+
+            }
+        }
+
+        return pathSums[rows - 1][cols - 1];
     }
 }
